@@ -40,7 +40,7 @@ const SocialLinks = () => (
 
         <div className="flex items-center gap-8 text-3xl lg:gap-14 lg:text-4xl">
             {socialLinks.map(({ href, icon }, index) => (
-                <Link key={index} href={href} className="sleek hover:text-primary">
+                <Link key={index} href={href} target="_blank" className="sleek hover:text-primary">
                     {icon}
                 </Link>
             ))}
