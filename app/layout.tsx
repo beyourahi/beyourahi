@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 const RootLayout = ({ children }: PropsWithChildren) => (
     <html lang="en" className="scroll-smooth">
-        <body className="bg-black text-white">{children}</body>
+        <body className="flex h-[100dvh] flex-col bg-black text-white">{children}</body>
     </html>
 );
 
