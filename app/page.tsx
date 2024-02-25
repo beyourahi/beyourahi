@@ -42,7 +42,7 @@ const Home = () => {
                             key={index}
                             href={href}
                             target="_blank"
-                            className="sleek hover:text-primary"
+                            className="hover:text-primary transition-all duration-200 ease-in-out hover:scale-110 active:scale-90"
                         >
                             {icon}
                         </Link>
