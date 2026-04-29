@@ -1,1 +1,1 @@
-<h1 align="center">Yo 🤙</h1>
+<h1 align="center">Sup 🤙</h1>
